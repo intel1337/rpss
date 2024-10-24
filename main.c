@@ -83,6 +83,7 @@ void ascii(){
 }
 int main() {
     system("clear");
+    ascii();
     // Prenom 1
     printf("█████████████████████ \n");
     printf("██Entrez Prénom 1 >██\n");
@@ -90,6 +91,7 @@ int main() {
     printf("\n>");
     fgets(prenom1, 50, stdin);
     prenom1[strcspn(prenom1, "\n")] = 0; 
+    ascii();
     // Prenom 2
     printf("█████████████████████ \n");
     printf("██Entrez Prénom 2 >██\n");
