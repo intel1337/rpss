@@ -82,6 +82,7 @@ void ascii(){
 }
 int main() {
     system("clear");
+    ascii();
     // Prenom 1
     printf("█████████████████████ \n");
     printf("██Entrez Prénom 1 >██\n");
