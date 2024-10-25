@@ -5,7 +5,8 @@ Permet de jouer au pierre feuille papier ciseaux avec plein de features.
 <img width="904" alt="image" src="https://github.com/user-attachments/assets/e4d6b026-9dce-4650-a545-e325578dbf13">
 
 ## Algo et Description :
-![ez](https://github.com/user-attachments/assets/02e783ce-778c-4e17-913a-096db7008859)
+<img width="1039" alt="ez" src="https://github.com/user-attachments/assets/7acc42fe-e8c6-4e3c-8b42-1c45c3083919">
+
 
 
 ### Pré requis
