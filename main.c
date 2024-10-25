@@ -100,6 +100,39 @@ char prenom2[10] = {"Shifumi AI"};
 ██          ██  
 ████████
 */
+void anim(int i){
+    for(int i = 0; i !=21;i++){
+        printf("█");
+        sleep_ms(100);
+        fflush(stdout);
+    }
+    printf("\n");
+    printf("██Entrez Prénom 1 >██\n");
+    for(int i = 0; i !=21;i++){
+        printf("█");
+        sleep_ms(100);
+        fflush(stdout);
+    }
+    printf("\n");
+
+}
+void anim2(int i){
+    for(int i = 0; i !=21;i++){
+        printf("█");
+        sleep_ms(100);
+        fflush(stdout);
+    }
+    printf("\n");
+    printf("██Entrez Prénom 2 >██\n");
+    for(int i = 0; i !=21;i++){
+        printf("█");
+        sleep_ms(100);
+        fflush(stdout);
+    }
+    printf("\n");
+
+}
+
 
 void save_score(char *prenom1, char *prenom2, int score1, int score2) {
     FILE *fptr = fopen("save.txt", "w");
@@ -157,9 +190,7 @@ int main() {
     system("clear");
     ascii();
     // Prenom 1
-    printf("█████████████████████ \n");
-    printf("██Entrez Prénom 1 >██\n");
-    printf("█████████████████████\n");
+    anim(0);
     printf("\n>");
     fgets(prenom1, 50, stdin);
     prenom1[strcspn(prenom1, "\n")] = 0; 
