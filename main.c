@@ -96,7 +96,51 @@ char prenom2[50];
 ██          ██  
 ██          ██  
 ████████
+
+
 */
+void sleep_ms(int milliseconds)
+{
+    // Convert milliseconds to microseconds
+    usleep(milliseconds * 1000);
+}
+
+   
+    
+
+void anim(int i){
+    for(int i = 0; i !=21;i++){
+        printf("█");
+        sleep_ms(100);
+        fflush(stdout);
+    }
+    printf("\n");
+    printf("██Entrez Prénom 1 >██\n");
+    for(int i = 0; i !=21;i++){
+        printf("█");
+        sleep_ms(100);
+        fflush(stdout);
+    }
+    printf("\n");
+
+}
+void anim2(int i){
+    for(int i = 0; i !=21;i++){
+        printf("█");
+        sleep_ms(100);
+        fflush(stdout);
+    }
+    printf("\n");
+    printf("██Entrez Prénom 2 >██\n");
+    for(int i = 0; i !=21;i++){
+        printf("█");
+        sleep_ms(100);
+        fflush(stdout);
+    }
+    printf("\n");
+
+}
+
 
 void save_score(char *prenom1, char *prenom2, int score1, int score2) {
     FILE *fptr = fopen("save.txt", "w");
@@ -153,21 +197,16 @@ int main() {
     system("clear");
     ascii();
     // Prenom 1
-    printf("█████████████████████ \n");
-    printf("██Entrez Prénom 1 >██\n");
-    printf("█████████████████████\n");
+    anim(0);
     printf("\n>");
     fgets(prenom1, 50, stdin);
     prenom1[strcspn(prenom1, "\n")] = 0; 
-    ascii();
+    printf("\n");
     // Prenom 2
-    printf("█████████████████████ \n");
-    printf("██Entrez Prénom 2 >██\n");
-    printf("█████████████████████\n");
+    anim2(0);
     printf("\n>");
     fgets(prenom2, 50, stdin);
     prenom2[strcspn(prenom2, "\n")] = 0; 
-
     system("clear");
     ascii();
     printf("Open with a save file ? y/n \n");
