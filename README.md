@@ -4,6 +4,8 @@ _(juste en dessous des badges sympatiques à placer)_
 
 
 Permet de jouer au pierre feuille papier ciseaux avec plein de features.
+# Screenshot
+<img width="904" alt="image" src="https://github.com/user-attachments/assets/e4d6b026-9dce-4650-a545-e325578dbf13">
 
 
 ### Pré requis
