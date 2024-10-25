@@ -38,18 +38,7 @@ Le langage C
 >☕️ - ETH 0x4153B73B3DBA2aD1e86C74227a75B6EA125FD8A7
 
 ## Versions
-[Releases](https://github.com/intel1337/rpss/releases/tag/main)
 v1.0 final.
+> [Releases](https://github.com/intel1337/rpss/releases/tag/main)
 
-## Auteurs
-Listez le(s) auteur(s) du projet ici !
-* **Jhon doe** _alias_ [@outout14](https://github.com/outout14)
-
-Lisez la liste des [contributeurs](https://github.com/your/project/contributors) pour voir qui à aidé au projet !
-
-_(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
-
-## License
-
-Ce projet est sous licence ``exemple: WTFTPL`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
 
