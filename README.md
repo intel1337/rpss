@@ -18,9 +18,9 @@ g++ / gcc / mingw32
 ```
 git clone https://github.com/intel1337/rpss.git
 ```
-Ensuite vous pouvez montrer ce que vous obtenez au final...
 
-## Démarrage
+
+## Utilisation
 
 -GCC GNU COMPILER :
 ```
@@ -32,9 +32,14 @@ gcc main.c && ./a.out
 g++ main.c && ./a.out
 ```
 
-## Fabriqué avec
+Evitez de modifier le save.txt pour ne pas rencontrer d'erreurs
 
-Le langage C
+## Disponible grace à :
+
+-GCC
+-patorjk.com
+-stackoverlfow.com
+-man
 
 ## Contributing
 
