@@ -1,11 +1,11 @@
 # Rock Paper Scissors in C
-_(juste en dessous des badges sympatiques à placer)_
-
-
 
 Permet de jouer au pierre feuille papier ciseaux avec plein de features.
 # Screenshot
 <img width="904" alt="image" src="https://github.com/user-attachments/assets/e4d6b026-9dce-4650-a545-e325578dbf13">
+
+## Algo et Description :
+![ez](https://github.com/user-attachments/assets/02e783ce-778c-4e17-913a-096db7008859)
 
 
 ### Pré requis
